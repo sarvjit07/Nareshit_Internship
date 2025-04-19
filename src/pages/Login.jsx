@@ -5,7 +5,6 @@ function Login() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Normally you'd validate the form here
     navigate('/home');
   };
 
